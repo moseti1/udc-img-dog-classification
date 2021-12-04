@@ -35,9 +35,11 @@ Traing of the model was successiful. Model performed exceptionally.
 
 ### Results
  What are the results/insights did you get by profiling/debugging your model?
+ 
+Job trainging debugging summary.Provides summary of training job, system resource usage statistics, framework metrics, rules summary, and detailed analysis from each rule. The graphs and tables are interactive.
 
  
- [](https://github.com/moseti1/udc-img-dog-classification/blob/main/ProfilerReport/profiler-output/profiler-report.html)
+ ![](https://github.com/moseti1/udc-img-dog-classification/blob/main/debug-summary.png)
 
  Remember to provide the profiler html/pdf file in your submission.
 
@@ -49,7 +51,7 @@ Traing of the model was successiful. Model performed exceptionally.
 
  Remember to provide a screenshot of the deployed active endpoint in Sagemaker.
  
- [](https://github.com/moseti1/udc-img-dog-classification/blob/main/endpoint-screen.png)
+ ![](https://github.com/moseti1/udc-img-dog-classification/blob/main/endpoint-screen.png)
 
 ## Standout Suggestions
 **TODO (Optional):** This is where you can provide information about any standout suggestions that you have attempted.
