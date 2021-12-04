@@ -31,15 +31,23 @@ Remember that your README should:
 ## Debugging and Profiling
  Give an overview of how you performed model debugging and profiling in Sagemaker
  
-Traing of the model was successiful. Model performed exceptionally.
+ ![](https://github.com/moseti1/udc-img-dog-classification/blob/35419b610f6ce4dad636e03c8571ff4d08240919/best-training-job.png)
+ 
+ 
+ ![](https://github.com/moseti1/udc-img-dog-classification/blob/35419b610f6ce4dad636e03c8571ff4d08240919/loss-graph.png)
+ 
+Traing of the model was successiful. Althoug loss would be plotted sucessifully
 
 ### Results
  What are the results/insights did you get by profiling/debugging your model?
  
+ Best traing job
+ ![](https://github.com/moseti1/udc-img-dog-classification/blob/35419b610f6ce4dad636e03c8571ff4d08240919/best-hpo-job.png)
+ 
 Job trainging debugging summary.Provides summary of training job, system resource usage statistics, framework metrics, rules summary, and detailed analysis from each rule. The graphs and tables are interactive.
 
  
- ![](https://github.com/moseti1/udc-img-dog-classification/blob/main/debug-summary.png)
+ ![](https://github.com/moseti1/udc-img-dog-classification/blob/35419b610f6ce4dad636e03c8571ff4d08240919/debug-summary.png)
 
  Remember to provide the profiler html/pdf file in your submission.
 
@@ -51,7 +59,10 @@ Job trainging debugging summary.Provides summary of training job, system resourc
 
  Remember to provide a screenshot of the deployed active endpoint in Sagemaker.
  
- ![](https://github.com/moseti1/udc-img-dog-classification/blob/main/endpoint-screen.png)
+ ![](https://github.com/moseti1/udc-img-dog-classification/blob/62fb52dadeb077d8a6a1a418106649799080b212/endpoint-screen.png)
+ 
+ 
+ ![](https://github.com/moseti1/udc-img-dog-classification/blob/35419b610f6ce4dad636e03c8571ff4d08240919/endpoint-screen1.png)
 
 ## Standout Suggestions
 **TODO (Optional):** This is where you can provide information about any standout suggestions that you have attempted.
