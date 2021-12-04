@@ -17,6 +17,11 @@ Upload the data to an S3 bucket through the AWS Gateway so that SageMaker has ac
 ## Hyperparameter Tuning
 What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
+
+
+The model used in this project is ```resetnet50``` which is a pretrained model. The parameters used  instance_count, instance_type which refers to the number of machines and type of machine used respectively.
+The models architecure has two layers
+
 Remember that your README should:
 - Include a screenshot of completed training jobs
 - Logs metrics during the training process
@@ -24,21 +29,28 @@ Remember that your README should:
 - Retrieve the best best hyperparameters from all your training jobs
 
 ## Debugging and Profiling
-**TODO**: Give an overview of how you performed model debugging and profiling in Sagemaker
+ Give an overview of how you performed model debugging and profiling in Sagemaker
+ 
+Traing of the model was successiful. Model performed exceptionally.
 
 ### Results
-**TODO**: What are the results/insights did you get by profiling/debugging your model?
+ What are the results/insights did you get by profiling/debugging your model?
 
-**TODO** Remember to provide the profiler html/pdf file in your submission.
+ 
+ [](https://github.com/moseti1/udc-img-dog-classification/blob/main/ProfilerReport/profiler-output/profiler-report.html)
+
+ Remember to provide the profiler html/pdf file in your submission.
 
 
 ## Model Deployment
-**TODO**: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
+ Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
+ 
+ Deployment was sucessiful. You can query the endpont by passing an image item to the predict method of the model.
 
-**TODO** Remember to provide a screenshot of the deployed active endpoint in Sagemaker.
+ Remember to provide a screenshot of the deployed active endpoint in Sagemaker.
+ 
+ [](https://github.com/moseti1/udc-img-dog-classification/blob/main/endpoint-screen.png)
 
 ## Standout Suggestions
 **TODO (Optional):** This is where you can provide information about any standout suggestions that you have attempted.
-# udc-img-dog-classification
-# udc-img-dog-classification
-# udc-img-dog-classification
+
