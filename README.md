@@ -17,11 +17,6 @@ Upload the data to an S3 bucket through the AWS Gateway so that SageMaker has ac
 ## Hyperparameter Tuning
 What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
-
-
-The model used in this project is ```resetnet50``` which is a pretrained model. The parameters used  instance_count, instance_type which refers to the number of machines and type of machine used respectively.
-The models architecure has two layers
-
 Remember that your README should:
 - Include a screenshot of completed training jobs
 - Logs metrics during the training process
@@ -29,45 +24,18 @@ Remember that your README should:
 - Retrieve the best best hyperparameters from all your training jobs
 
 ## Debugging and Profiling
- Give an overview of how you performed model debugging and profiling in Sagemaker
- 
- ![](https://raw.githubusercontent.com/moseti1/udc-img-dog-classification/main/best-training-job.png)
- 
- 
- ![](https://raw.githubusercontent.com/moseti1/udc-img-dog-classification/main/loss-graph.png)
- 
-Traing of the model was successiful. Althoug loss would be plotted sucessifully. 
-
-Solving this error require investigating the profiler report carefully.
+**TODO**: Give an overview of how you performed model debugging and profiling in Sagemaker
 
 ### Results
- What are the results/insights did you get by profiling/debugging your model?
- 
- Best traing job
- ![](https://raw.githubusercontent.com/moseti1/udc-img-dog-classification/main/best-hpo-job.png)
- 
-Job trainging debugging summary.Provides summary of training job, system resource usage statistics, framework metrics, rules summary, and detailed analysis from each rule. The graphs and tables are interactive.
+**TODO**: What are the results/insights did you get by profiling/debugging your model?
 
- 
- ![](https://raw.githubusercontent.com/moseti1/udc-img-dog-classification/main/debug-summary.png)
-
- Remember to provide the profiler html/pdf file in your submission.
+**TODO** Remember to provide the profiler html/pdf file in your submission.
 
 
 ## Model Deployment
- Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
- 
- Deployment was sucessiful. You can query the endpont by passing an image item to the predict method of the model.
+**TODO**: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 
- Remember to provide a screenshot of the deployed active endpoint in Sagemaker.
- 
- ![](https://raw.githubusercontent.com/moseti1/udc-img-dog-classification/main/endpoint-screen.png)
- 
- 
- ![](https://raw.githubusercontent.com/moseti1/udc-img-dog-classification/main/endpoint-screen1.png)
- 
- To query the endpoint, create a  ```payload``` object from one of the test images and pass it to ```predictor.predict()```
+**TODO** Remember to provide a screenshot of the deployed active endpoint in Sagemaker.
 
 ## Standout Suggestions
 **TODO (Optional):** This is where you can provide information about any standout suggestions that you have attempted.
-

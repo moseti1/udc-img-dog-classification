@@ -147,8 +147,17 @@ def main(args):
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
-    parser.add_argument('--learning_rate', type=float)
-    parser.add_argument('--batch_size', type=int)
+    parser.add_argument(
+        "--batch_size",
+        type = int,
+        default = 64,
+        metavar = "N",
+        help = "input batch size for training (default: 64)",
+    )
+    parser.add_argument(
+        "--learning_rate", type = float, default = 0.1, metavar = "LR", help = "learning rate (default: 1.0)"
+    )
+    
     parser.add_argument('--data', type=str, default=os.environ['SM_CHANNEL_TRAINING'])
     parser.add_argument('--model_dir', type=str, default=os.environ['SM_MODEL_DIR'])
     parser.add_argument('--output_dir', type=str, default=os.environ['SM_OUTPUT_DATA_DIR'])
