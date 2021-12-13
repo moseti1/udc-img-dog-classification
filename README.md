@@ -38,7 +38,7 @@ The model training process was a success. The best traing job had a `learning_ra
 
 To debug the model i set a debug hook in the  `train_model.py` and `hpo.py` scripts. The hook records training summary of the model and gives overview of the training process including data and insights on the infrustructure used.To illustrate the model performance we draw a tensor graph as below.
 
-![](https://raw.githubusercontent.com/moseti1/udc-img-dog-classification/main/loss-graph.png)
+![](https://raw.githubusercontent.com/moseti1/udc-img-dog-classification/main/loss-graph1.png)
 
 ##Note: The graph appears blank.
 
