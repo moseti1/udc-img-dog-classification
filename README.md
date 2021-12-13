@@ -40,7 +40,28 @@ To debug the model i set a debug hook in the  `train_model.py` and `hpo.py` scri
 
 ![](https://raw.githubusercontent.com/moseti1/udc-img-dog-classification/main/loss-graph.png)
 
+##Note: The graph appears blank.
 
+Inorder to solve this problem. You will need to configure a hook in the entry script of the estimator i.e `train_model.py`. To set the hook.
+
+```
+# import the packages for debug
+import smdebug.pytorch as smd
+from smdebug import modes
+
+# initialize the hook object
+hook = smd.Hook.create_from_json_file()
+ 
+#hook our model
+hook.register_module(model)
+
+#hook training phase
+hook.set_mode(modes.TRAIN)
+
+#hook eval data phase
+hook.set_mode(modes.EVAL)
+
+```
 
 Training Job Summary
 
